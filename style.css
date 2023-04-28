@@ -16,12 +16,14 @@ h1 {
 .half-width {
     width: 40%;
     float: left;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    padding-right: 1%;
+    padding-left: 1%;
 }
 
 .half-width img {
-    width: 75%;
+    width: 80%;
 }
 
 .top-banner {
@@ -55,4 +57,29 @@ p {
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.single-experience {
+    box-shadow: 10px 10px 40px gray;
+    height: 75%;
+    background-color: white;
+}
+
+.experience-area {
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack {
+    border-left: 7px solid orange;
+}
+
+#baby-web {
+    border-left: 7px solid tomato;
+}
+
+footer p {
+    font-size: 14px;
+    text-align: center;
 }
